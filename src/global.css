@@ -1,0 +1,27 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --darkBlue: #000080;
+    --blue: #007bff;
+    --blue-500: #0000FF;
+    --blue-100: #4EA8DE;
+    --mediumBlue: #0000CD;
+    --purple: #5E60CE;
+    --green: #1f831f;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--mediumBlue);
+}
+
+:focus {
+    outline: transparent;
+  }

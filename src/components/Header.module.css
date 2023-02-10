@@ -1,0 +1,23 @@
+.main{
+    background: var(--darkBlue);
+    display: flex;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem 0;
+    width: 100%;
+}
+
+.name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    background: linear-gradient(to right, var(--blue) 50%, #1f831f 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+

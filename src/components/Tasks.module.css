@@ -1,0 +1,83 @@
+.div{
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 9rem;
+
+}
+
+.input{
+    background: var(--blue);
+    color: var(--white);
+    padding: 1rem;
+    border: 0.0625rem solid var(--blue-100);
+    border-radius: 0.5rem;
+    width: 46rem;
+    height: 3.5rem;
+    font-size: large;
+    }
+
+.input::placeholder{
+    color: var(--white);
+}
+
+.buttonCreat{
+    width: 5.5rem;
+    height: 3.5rem;
+    border: 0.0625rem solid var(--blue);
+    border-radius: 0.5rem;
+    background: var(--darkBlue);
+    color: var(--blue);
+    font-size: medium;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.buttonCreat:hover{
+    background: var(--blue);
+    color: var(--white);
+} 
+
+.buttonCreat:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.counts{
+    display: flex;
+    justify-content:space-between;
+    color: var(--white);
+    margin-top: 2rem;
+    margin-right: 27.5%;
+    margin-left: 28%;
+}
+
+.counts span{
+    color: var(--white);
+    background: var(--blue);
+    border-radius: 40%;
+    font-size: 0.7rem;
+    padding: 0.2rem;
+}
+
+.listTask{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    top: 5.5rem;
+    height: 30rem;
+    padding: 1rem;
+    color: var(--white);
+}
+
+.to{
+    color: var(--blue);
+}
+
+.do{
+    color: var(--green);
+}
