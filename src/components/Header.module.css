@@ -20,4 +20,10 @@
     -webkit-text-fill-color: transparent;
 }
 
+.main img{
+    max-width:35px;
+    width: auto;
+    height: auto;
+    margin-right: 0.5rem;
+}
 
